@@ -2,6 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common style or utilities*/
+header{
+    background-color: #562EFF;
+    margin: 0%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 250px;
+    padding-right: 290px;
+}
+
+#idea-icon img{
+    width: 40.42px;
+    height: 51px;
+}
+.left-navigation{
+    display: flex;
+    align-items: center;
+}
+.left-navigation li{
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.right-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    color: #FFFFFF;
+    
+}
+.right-navigation li{
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 25px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -122,6 +163,14 @@ top-players style
 
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
+    header{
+        background-color: #FFC014;
+        width: 100%;
+    }
+    .navigation{
+        background-color: #FFC014;
+        width: 100%;
+    }
     .container{
         width: 100%;
     }
